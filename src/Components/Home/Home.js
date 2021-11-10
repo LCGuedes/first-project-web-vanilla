@@ -1,6 +1,6 @@
 import React from 'react';
-
 import '../../Components/Geral.css';
+import './Style.css';
 
 
 function Home() {

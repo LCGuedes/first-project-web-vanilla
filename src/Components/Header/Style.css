@@ -8,20 +8,6 @@
   
 }
 
-/*----------Stiliza a mesma tag nav-----*/
-
-.container {
-    max-width: 768px;
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-    
-}
-/*===================NAV==========================*/
-.grid {
-  display: grid;
-  grid-gap: 1.5rem;
-}
-
 .nav {
   max-width: 968px;
   height: var(--header-height);
@@ -32,9 +18,9 @@
 }
 
 .nav_logo, .nav_toggle {
-color: var(--title-color);
-font-weight: var(--font-medium);
-}
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  }
 
 .nav_logo:hover {
 color: var(--first-color);
@@ -60,7 +46,7 @@ cursor: pointer;
     box-shadow: 0 -1px 4px rgba(0,0,0,.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: .3s;
-}
+  }
 }
 
 .nav_list {
@@ -100,4 +86,10 @@ cursor: pointer;
 
 .show-menu {
   bottom: 0;
+}
+
+/*---change-backgound-header----*/
+
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }

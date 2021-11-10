@@ -1,7 +1,7 @@
 import React from 'react';
-
 import './Action.js';
 import '../../Components/Geral.css';
+import './Style.css';
 
 
 

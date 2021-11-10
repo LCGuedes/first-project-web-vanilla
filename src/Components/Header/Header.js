@@ -1,5 +1,6 @@
 import React from "react";
 import '../../Components/Geral.css';
+import './Style.css';
 
 import './Action.js';
 
@@ -30,12 +31,12 @@ function Header() {
                 </a>
             </li>
             <li className="nav_item">
-                <a href="#portifolio" className="nav_link"><i className="uil uil-scenery nav-icon"></i> Portifolio
+                <a href="#portfolio" className="nav_link"><i className="uil uil-scenery nav-icon"></i> Portifolio
                 </a>
             </li>
             <li className="nav_item">
-                <a href="#contact" className="nav_link"><i className="uil uil-message nav-icon" id="contact"></i>
-                  <i/> Contact-me
+                <a href="#contact" className="nav_link"><i className="uil uil-message nav-icon"></i>
+                   Contact-me
                 </a>
             </li>
         </ul>
